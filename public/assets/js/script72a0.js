@@ -511,9 +511,9 @@
       });
   var Q = e.hasClass('is-rtl') ? '../../images' : '../images';
   e.append();
-  var q = a(),
-    W = a(),
-    Z = a();
+  var q = a('.promo-trigger'),
+    W = a('.promo-content'),
+    Z = a('.promo-close');
   Z.length > 0 &&
     Z.on('click', function() {
       var a = Cookies.get('twz-offer');
